@@ -1,0 +1,186 @@
+/*
+Theme Name: sipuni-dark
+Description: Чистый шаблон WordPress для разработки
+*/
+
+.callback__inner {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+@media (max-width: 992px) {
+	.header-top__container {
+		align-items: flex-start;
+	}
+	.callback__inner {
+		gap: 0px;
+	}
+}
+#invisible {
+	display: none;
+}
+.form-check {
+	display: flex;
+	align-items: center;
+	padding: 0;
+	margin-top: 20px;
+	justify-content: flex-start;
+	margin-left: 0;
+	padding-right: 0;
+}
+
+.grecaptcha-badge {
+	opacity: 0;
+	visibility: hidden;
+}
+.section-22__form {
+	margin-top: 40px;
+}
+
+.section-6-3__form {
+	margin-top: 30px;
+}
+.form__social {
+	margin: 20px 0 30px;
+}
+.social-form {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.social-from__text {
+}
+.social-form__icons a {
+	flex: 0 0 36px;
+	min-width: 36px;
+	height: 36px;
+}
+.social-form__icons {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+.contacts-footer__soc {
+}
+
+.nav-list__list-item:nth-child(10) .nav-list__link::before,
+.nav-list li:nth-child(10) .nav-list__link::before {
+	content: "10";
+}
+.nav-list__list-item:nth-child(11) .nav-list__link::before,
+.nav-list li:nth-child(11) .nav-list__link::before {
+	content: "11";
+}
+
+.breadcrumbs {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.breadcrumbs__current br {
+	display: none;
+}
+
+.contact-1__block {
+	align-items: stretch;
+}
+.contact-1__column p {
+	font-size: 20px;
+}
+.contact-1__files {
+	display: flex;
+	gap: 30px;
+}
+.contact-1__list {
+	padding-left: 5px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+.contact-1__files {
+	margin-top: 50px;
+}
+.contact-1__file-block {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin-top: 13px;
+}
+.contact-1__file-title {
+	font-weight: 400;
+	margin-bottom: 0 !important;
+}
+p.contact-1__file-text {
+	font-size: 13px !important;
+	font-weight: 400;
+	line-height: calc(17 / 13 * 100%);
+	letter-spacing: 0.005em;
+	text-align: left;
+}
+
+.contact-1__inn {
+	font-size: 16px !important;
+	font-weight: 300;
+	line-height: calc(19 / 16 * 100%);
+	letter-spacing: 0.005em;
+	text-align: left;
+}
+.contact-1__file-weight {
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 0.005em;
+	text-align: left;
+	margin-top: 10px;
+}
+
+@media (max-width: 727px) {
+	.contact-1__file-text {
+		margin: 0;
+	}
+	.contact-1__column p,
+	.contact-1__column ._subtitle-block {
+		font-size: 18px;
+	}
+	.contact-1__item:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	.contact-1__files {
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 479px) {
+	.contact-1__files {
+		flex-direction: column;
+	}
+	p.contact-1__file-text {
+		max-width: 172px;
+	}
+}
+
+.lk__link {
+	display: flex;
+	gap: 8px;
+}
+
+@media (max-width: 620px) {
+	.lk {
+		display: none;
+	}
+
+	.lk__link a {
+		background-color: #222;
+		padding: 7px 15px;
+	}
+}
+
+.lk__link:hover a {
+	background-color: #303030;
+	color: #fff;
+}
+a.cabinet__lk:hover {
+	background-color: #fff;
+	color: #222;
+}
