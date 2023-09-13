@@ -337,14 +337,16 @@ body {
   margin: 0 auto;
   width: 17px;
   height: 13px;
-  background: url(../img/bg/table-check-icon.svg) 0 0 no-repeat;
+  background: url(../img/bg/table-check-icon.svg) center no-repeat;
+  background-size: 100%;
   }
 
 .telephony-table__close-icon {
   margin: 0 auto;
   width: 17px;
   height: 17px;
-  background: url(../img/bg/table-close-icon.svg) 0 0 no-repeat;
+  background: url(../img/bg/table-close-icon.png) center no-repeat;
+  background-size: 100%;
   }
 
 /* sim-cards */
