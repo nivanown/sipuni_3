@@ -83,3 +83,197 @@
 	font-size: 16px;
 	}
 }
+
+@media (max-width: 1023px) {
+  .integration_changed {
+    display: block;
+    min-height: auto;
+  }
+}
+
+@media (max-width: 727px) {
+[class*=__container] {
+	padding: 0 10px;
+	max-width: inherit;
+	}
+
+.btn {
+	padding: 16px 10px;
+	max-width: 300px;
+	min-width: auto;
+	width: 100%;
+	border-radius: 5px;
+	}
+
+.integration { 
+	padding: 73px 0 82px;
+	}
+
+.integration__big-title { 
+	margin: 0 0 10px;
+	}
+
+.big-title {
+	margin: 0 0 40px;
+	font-size: 30px;
+	line-height: 33px;
+	}
+
+.telephony-info {
+	display: flex;
+	flex-wrap: inherit;
+	gap: 0 15px;
+	margin: 0 -10px 70px;
+	padding: 0 10px;
+	max-width: inherit;
+	width: auto;
+	overflow-x: scroll;
+	white-space: nowrap;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	}
+
+.telephony-info::-webkit-scrollbar { 
+	width: 0; 
+	height: 0;
+	background: transparent;
+	}
+
+.telephony-info__item { 
+	width: 350px;
+	min-width: 350px;
+	white-space: normal;
+	}
+
+.sim-cards-catalog {
+	display: flex;
+	flex-wrap: inherit;
+	gap: 0 15px;
+	margin: 0 -10px 70px;
+	padding: 0 10px;
+	max-width: inherit;
+	width: auto;
+	overflow-x: scroll;
+	white-space: nowrap;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	}
+
+.sim-cards-catalog::-webkit-scrollbar { 
+	width: 0; 
+	height: 0;
+	background: transparent;
+	}
+
+.sim-cards-catalog__item { 
+	width: 300px;
+	min-width: 300px;
+	white-space: normal;
+	}
+}
+
+@media (max-width: 726px) { 
+.integration__btn {
+	max-width: 100%;
+	}
+}
+
+@media (max-width: 640px) { 
+.telephony-table {
+	margin: 0 -10px;
+	padding: 0 10px;
+	overflow-x: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	}
+
+.telephony-table::-webkit-scrollbar { 
+	width: 0; 
+	height: 0;
+	background: transparent;
+	}
+
+.telephony-table__head-col {
+	width: 600px;
+	}
+
+.telephony-table__title-item {
+	padding: 0 0 20px;
+	}
+
+.telephony-table__title {
+	font-size: 16px;
+	line-height: 22px;
+	}
+
+.telephony-table__content {
+	width: 600px;
+	border-radius: 5px;
+	}
+
+.telephony-table__item {
+	padding: 15px;
+	}
+
+.telephony-table__col:first-child .telephony-table__item:last-child {
+	border-radius: 0 5px 0 0;
+	}
+
+.telephony-table__col:last-child .telephony-table__item:last-child {
+	border-radius: 0 0 5px 0;
+	}
+
+.telephony-table__text {
+	font-size: 12px;
+	}
+
+.sim-cards-catalog__item {
+	border-radius: 10px;
+	}
+
+.sim-cards__small-title {
+	font-size: 24px;
+	}
+
+.order-info {
+	display: block;
+	padding: 15px;
+	border-radius: 10px;
+	}
+
+.order-info dt {
+	display: block;
+	margin: 0 0 20px;
+	padding: 0 0 15px;
+	width: 100%;
+	text-align: center;
+	border-right: 0;
+	border-bottom: 1px solid #fff;
+	}
+
+.faqs-accordion__item {
+	padding: 15px;
+	border-radius: 10px;
+	}
+
+.faqs-accordion__top-panel {
+	padding: 3px 40px 3px 0;
+	}
+
+.faqs-accordion__title {
+	font-size: 20px;
+	line-height: 30px;
+	}
+}
+
+@media (max-width: 370px) { 
+.telephony-info__item {
+	width: 270px;
+    min-width: 270px;
+	}
+
+.sim-cards-catalog__item {
+	width: 270px;
+    min-width: 270px;
+	}
+}
