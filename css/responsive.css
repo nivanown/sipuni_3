@@ -1,3 +1,81 @@
 @media (max-width: 1240px) {
-	
+[class*=__container] {
+	max-width: 728px;
+	}
+
+.integration {
+	padding: 111px 0 100px;
+	}
+
+.integration__big-title { 
+ 	margin: 0 0 15px;
+ 	}
+
+.telephony {
+	padding: 80px 0 0;
+	}
+
+.telephony-info__title {
+	font-size: 22px;
+	line-height: 30px;
+	}
+
+.telephony-info__description p br {
+	display: none;
+	}
+
+.sim-cards {
+	padding: 80px 0 0;
+	}
+
+.sim-cards-catalog {
+	gap: 15px 15px;
+	}
+
+.sim-cards-catalog__item {
+	padding: 15px;
+	}
+
+.sim-cards-catalog__top-panel span {
+	font-size: 14px;
+	}	
+
+.sim-cards-catalog__text {
+	font-size: 14px;
+	}
+
+.counter input[type="text"] {
+	height: 46px;
+	font-size: 16px;
+	}
+
+.counter__btns {
+	height: 46px;
+	}
+
+.sim-cards-catalog__total-price {
+	font-size: 14px;
+	}
+
+.faqs {
+	padding: 80px 0;
+	}
+
+.faqs-accordion__item {
+	padding: 20px;
+	}
+
+.faqs-accordion__title {
+	font-size: 24px;
+	}
+
+.faqs-accordion__icon {
+	margin: -13px 0 0;
+	width: 26px;
+	height: 26px;
+	}
+
+.faqs-accordion__content p {
+	font-size: 16px;
+	}
 }
