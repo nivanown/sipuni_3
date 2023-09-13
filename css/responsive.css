@@ -15,9 +15,13 @@
 	padding: 80px 0 0;
 	}
 
+.telephony-info {
+	gap: 15px 15px;
+	}
+
 .telephony-info__title {
 	font-size: 22px;
-	line-height: 30px;
+	line-height: 28px;
 	}
 
 .telephony-info__description p br {
