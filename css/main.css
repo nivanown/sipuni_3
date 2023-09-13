@@ -193,7 +193,7 @@ body {
   display: flex;
   align-items: center;
   padding: 185px 0 180px;
-  height: 100vh;
+  min-height: 100vh;
   }
 
 .integration_dec-three {
@@ -350,6 +350,36 @@ body {
 /* sim-cards */
 .sim-cards {
   padding: 150px 0 0;
+  }
+
+/* sim-cards__big-title */
+.sim-cards__big-title {
+  margin: 0 0 20px;
+  }
+
+/* sim-cards__info-panel */
+.sim-cards__info-panel {
+  margin: 0 0 60px;
+  }
+
+.sim-cards__big-text {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  opacity: 0.8;
+  }
+
+.sim-cards__small-text {
+  margin: 0 0 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  opacity: 0.5;
+  }
+
+.sim-cards__small-text:last-child {
+  margin: 0;
   }
 
 /* sim-cards__small-title */
